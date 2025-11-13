@@ -175,3 +175,17 @@ header {
   gap: 60px;
   padding-bottom: 30px;
 }
+
+.product-card{
+  background-color: #c8c8c8;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.product-details{
+  align-content: center;
+  justify-content: center;
+}
