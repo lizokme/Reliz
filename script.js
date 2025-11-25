@@ -22,7 +22,10 @@ function getCookieValue(cookieName) {
     return '';
 }
 
-let themeBtn = document.querySelector("#themeToggle");
+
+
+let themeBtn = document.querySelector("#themeToggle")
+
 
 function setTheme(theme) {
     if (theme == 'light') {
@@ -34,8 +37,10 @@ function setTheme(theme) {
     }
 }
 
-let theme = getCookieValue('theme');
-setTheme(theme);
+
+let theme = getCookieValue('theme')
+setTheme(theme)
+
 
 themeBtn.addEventListener("click", () => {
     document.body.classList.toggle('light-theme'); // Перемикаємо клас теми
@@ -48,16 +53,21 @@ themeBtn.addEventListener("click", () => {
     // Зберігаємо JSON рядок у кукі
     document.cookie = `theme=${theme}; max-age=${60 * 60 * 24 * 7}; path=/`;
 })
+
+
 // Очікуємо завантаження сторінки
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function() {
     // Отримуємо всі написи для анімації
     const textElements = document.querySelectorAll('.fade-in-text');
+
 
     // Додаємо клас "show" для запуску анімації
     textElements.forEach(element => {
         element.classList.add('show');
     });
 });
+
+
 // Отримуємо дані про товари з JSON файлу
 async function getProducts() {
     let response = await fetch("store_db.json");
@@ -113,7 +123,7 @@ const cartBtn = document.getElementById('cartBtn')
 // Навішуємо обробник подій на клік кнопки "Кошик"
 cartBtn.addEventListener("click", function () {
     // Переходимо на сторінку кошика
-    window.location.assign('cart.html')
+    window.location.assign('card.html')
 })
 
 class ShoppingCart {
