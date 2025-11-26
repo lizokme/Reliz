@@ -452,33 +452,33 @@ header {
 
 
 body.light-theme .last-three-blocks{
-  background-color: rgb(255, 150, 194);
+  background-color: #FDEDED;
 }
 
 body.light-theme .feature-item{
-  background-color: rgb(255, 150, 194);
+  background-color: #FDEDED;
 }
 
 body.light-theme .hashtag-header p{
-  background-color: rgb(255, 150, 194);
+  background-color:#D6A99D;
 }
 .product-card:hover{
   box-shadow: 5px 5px 5px black;
 }
 
 body.light-theme {
-  background-color: rgb(255, 202, 234);
+  background-color:#D6A99D;
   color: rgb(24, 24, 24);
 }
 
 body.light-theme .more-products-area{
-  background-color:  rgb(255, 202, 234);
+  background-color:  #FDEDED;
   color: rgb(24, 24, 24);
 
 }
 
 body.light-theme .products {
-  background-color: rgb(255, 202, 234);
+  background-color: #FDEDED;
   color: rgb(24, 24, 24);
 }
 
@@ -489,7 +489,7 @@ body.light-theme .product-card{
   background-color:  rgb(255, 255, 255);
 }
 body.light-theme footer {
-  background-color: rgb(250, 194, 255);
+  background-color: #F5D2D2;
   color: rgb(24, 24, 24);
 }
 
